@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+body {
+    background: ghostwhite;
+    text-align: justify;
+}
+
+.description {
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+.description, .legendtext, .foundedtext, .danylotext {
+    margin-left: 30px;
+    margin-right: 40px;
+    color: darkblue;
+}
+
+.rynok, .oldLviv {
+    width: 400px;
+    height: 300px;
+    border: solid chocolate;
+    margin: 30px;
+    box-sizing: border-box;
+
+}
+
+.content, .legend, .founded, .danylo {
+    color: chocolate;
+
+}
+
+.evidence:hover{
+    color: darkviolet;
+
+}
