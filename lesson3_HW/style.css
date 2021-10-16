@@ -1,0 +1,41 @@
+body {
+    background: azure;
+    text-align: justify;
+    margin: 40px;
+}
+
+.title {
+    color: darkblue;
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+}
+
+.father {
+    display: flex;
+    box-sizing: border-box;
+    width: border-box;
+
+}
+
+.picture {
+    border: 5px solid azure;
+    padding: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: right;
+    justify-content: right;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+.content, .economySubject, .subject, .microeconomy, .macroeconomy {
+    color: darkblue;
+}
+
+.item:hover {
+    color: blue;
+}
