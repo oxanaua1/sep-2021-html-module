@@ -9,56 +9,38 @@
     margin: 0 auto;
 }
 
-#header {
-    height: 100px;
-    background: yellowgreen;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-
-}
-
-.father {
-
-    display: flex;
-    flex-direction: row;
-
-
-
-}
-
-#menu {
-    width: 400px;
-    height: 400px;
-    background: lightsalmon;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-
-}
-
-.post {
-    width: 300px;
-    height: 170px;
+.widgets {
+    height: 200px;
     background: lightskyblue;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 10px;
 }
 
-#footer {
-    height: 100px;
-    background: yellowgreen;
+.father {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 10px;
+
+}
+.big {
+    display: flex;
+    flex-grow: 1;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    background: blue;
+
+
+
+}
+.contacts {
+    height: 200px;
+    background: lightskyblue;
     display: flex;
     align-items: center;
     justify-content: center;
