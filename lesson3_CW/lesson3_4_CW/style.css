@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 5px solid darkgrey;
+    border-radius: 8px;
+    padding: 5px;
+    width: 800px;
+
+}
+
+.blockA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.otherBlocks {
+    display: flex;
+
+
+
+}
+
+.blocksAll {
+    display: flex;
+    column-gap: 4px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+
+}
+.blockB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    width: 200px;
+    height: 100px;
+
+}
+.blockC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    width: 200px;
+}
+.blockD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    width: 200px;
+}
+.blockE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    width: 200px;
+}
+.blockF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    width: 200px;
+}
+.blockG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 100px;
+    width: 200px;
+}
+.blockH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    width: 333px;
+
+
+}

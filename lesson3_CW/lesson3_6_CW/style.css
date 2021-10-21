@@ -1,0 +1,82 @@
+*  {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+
+
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 200px;
+    background: cornflowerblue;
+
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 200px;
+    background: cornflowerblue;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    flex-grow: 1;
+    background: #00fff7;
+    height: 100px;
+
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+.shishkabob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 200px;
+    background: cornflowerblue;
+
+}
+.bbqKabobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 200px;
+    background: cornflowerblue;
+
+}
+.summerKabobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 200px;
+    background: cornflowerblue;
+
+}
