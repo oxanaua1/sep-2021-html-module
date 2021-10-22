@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.font {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.bgdarkblue {
+    background: darkblue;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.header {
+
+    height: 200px;
+    background: cornflowerblue;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+
+}
+.father {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+
+
+}
+
+.main {
+    display: flex;
+    flex-grow: 3;
+    background: lightskyblue;
+
+
+}
+
+.aside {
+    display: flex;
+    background: blue;
+    flex-grow: 1;
+
+}
+.footer {
+    display: flex;
+
+}
