@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+
+    .container {
+        width: 370px;
+        height: 250px;
+    }
+
+    .headerBorder {
+        width: 350px;
+        height: 200px;
+    }
+
+    .headerGrid {
+        row-gap: 5px;
+    }
+
+    .productsGrid {
+        column-gap: 50px;
+        margin: 20px;
+    }
+
+    .headerProduct {
+        width: 45px;
+        height: 45px;
+    }
+
+    .productText {
+        padding-left: 15px;
+    }
+
+    .productText p {
+        font-size: 13px;
+    }
+    .bottomContainer {
+        width: 370px;
+        height: 250px;
+    }
+
+    .servicesBlocks {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+
+    }
+    .servicesImg {
+        width: 37px;
+        height: 37px;
+    }
+
+    .servicedDescription {
+        text-align: center;
+        color: lightgray;
+        margin: 10px;
+    }
+
+    .footer {
+        width: 370px;
+        height: 20px;
+
+}
