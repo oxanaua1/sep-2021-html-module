@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: ghostwhite;
+
+}
+
+:root {
+    --blue: #54d5eb;
+    --lightviolet: #d7c9e3;
+    --orange: #f5c632;
+    --green: #9fc363;
+    --grey: #898989;
+    --greendark: #2bb673;
+    --pink: #f2cdde;
+    --orangedark: #fea500;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+
+.header {
+    width: 800px;
+    height: 200px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    display: flex;
+    column-gap: 15px;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.content__side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 40%;
+
+
+}
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--lightviolet);
+    height: 40%;
+
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--green);
+    height: 60%;
+}
+
+.content__main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 60%;
+
+
+}
+
+.mainContant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--orange);
+    height: 80%;
+
+}
+
+.extraContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--grey);
+    height: 20%;
+
+}
+
+.related {
+    display: flex;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.relatedImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--greendark);
+    width: 70%;
+
+}
+
+.relatedPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--pink);
+    width: 30%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: var(--orangedark);
+    height: 200px;
+    margin-bottom: 100px;
