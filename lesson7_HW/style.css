@@ -1,0 +1,132 @@
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.header_font {
+
+    font-size: 17px;
+    line-height: 20px;
+    color: #45494F;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+}
+
+.firstItem_description h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+
+}
+
+.firstItem_description p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+
+}
+
+.firstItem_description {
+    margin-top: 100px;
+}
+
+.firstItem_description p::before,
+.firstItem_description p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background: #EDEFF3;
+
+}
+
+.firstItem_description p::before {
+    top: -55px;
+}
+
+.firstItem_description p::after {
+    bottom: -55px;
+}
+
+
+.secondItem h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    margin-bottom: 23px;
+    margin-top: 57px;
+}
+.secondItem p {
+
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.secondItem span {
+    font-weight: 600;
+
+}
+.standardsDescription {
+    background: url("img7/bgBlue.png") no-repeat center/cover;
+}
+
+
+.standardsDescription h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    margin-top: 151px;
+}
+.standardsDescription p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+    margin-left: 220px;
+    margin-right: 50px;
+
+
+}
+.standardsDescription span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

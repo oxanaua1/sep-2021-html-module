@@ -1,0 +1,40 @@
+@media screen and (max-width: 400px) {
+
+    .firstItem_description h1 {
+
+        font-size: 30px;
+        line-height: 32px;
+
+    }
+
+    .secondItem_description h2 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 2.42px;
+    }
+
+    .standardsDescription h2 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .standardsDescription p {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .firstItem_picture, .secondItem_picture {
+        max-width: 300px;
+
+
+    }
+     .standardsModern img {
+        max-width: 400px;
+
+    }
+
+
+
+}
