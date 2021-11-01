@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="img/icon.png">
+
+    <title>AVT-ZAP</title>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <div class="headerTop">
+
+            <div class="navBar_grid">
+
+                <div class="navbar">
+                    <div>
+                        <img src="img/place.png" alt="place">
+                        <a class="town" href="#">Ваш город:&nbsp <span class="yourTown">Москва</span> </a>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle header_font" data-bs-toggle="dropdown" href="#"
+                           role="button"
+                           aria-expanded="false">Информация</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle header_font" data-bs-toggle="dropdown" href="#"
+                           role="button"
+                           aria-expanded="false">Сотрудничество</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navBar_others">
+                    <a class="nav-link header_font" href="#">Доставка</a>
+                    <a class="nav-link header_font" href="#">Оплата</a>
+                    <a class="nav-link header_font" href="#">Гарантия</a>
+                    <a class="nav-link header_font" href="#">Новости</a>
+                    <a class="nav-link header_font" href="#">Журнал</a>
+                    <a class="nav-link header_font" href="#">О магазине</a>
+                    <a class="nav-link header_font" href="#">Контакты</a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="header__information">
+
+            <div class="header__information_blockFirst">
+                <div class="blockFirst_logo">
+                    <img src="img/icon.png" alt="logo">
+                    <div class="flex-column">
+                        <h1>AVT-ZAP</h1>
+                        <p>Интернет-магазин запчастей
+                            <br>для АКПП</p>
+                    </div>
+
+                </div>
+                <div class="blockFirst_working">
+                    <img src="img/time.png" alt="clock">
+                    <p>
+                        Мы работаем: будни - 9:00-21:00
+                        <br>сб. - 10:00-15:00
+                    </p>
+                </div>
+                <div class="blockFirst_address">
+                    <img src="img/placeholder.png" alt="place">
+                    <p>Невский пр-т, д. 45</p>
+                </div>
+
+                <div>
+                    <button class="btn_WhatsApp">
+                        <img src="img/whatsapp.png" alt="whatsapp">
+                        Напишите нам в WhatsApp
+                    </button>
+                </div>
+
+                <div class="blockFirst_phoneNumber">
+                    <p>+7 383 291 92 86</p>
+                    <a href="#">форма обратной связи</a>
+                </div>
+            </div>
+
+
+            <div class="header__information_blockSecond">
+
+                <div class="blockSecond_catalog">
+                    <div class="blockSecond_dropdown">
+                        <button class="blockSecond_dropbtn">Каталог</button>
+                        <div class="blockSecond_dropdownContent">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="input-group row">
+                    <input type="search" class="site-search" placeholder="Поиск по наименованию или артикулу"
+                           aria-label="search"
+                           aria-describedby="input-group-button-right">
+                    <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Найти</button>
+                </div>
+
+                <div class="blockSecond_grid">
+                    <div class="blockSecond_enter">
+                        <img src="img/user.png" alt="user">
+                        <a href="#">Войти</a>
+
+                    </div>
+
+                    <div class="blockSecond_like">
+                        <img src="img/like.png" alt="like">
+                        <a href="#">Избранное</a>
+
+                    </div>
+
+                    <div class="blockSecond_basket">
+                        <img src="img/buy.png" alt="basket">
+                        <a href="#">В корзине <br> нет товаров</a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="main__grid">
+
+            <div class="main__grid_left col-xl-9">
+
+                <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class=" carousel-item active">
+                            <div class="main__grid__left_pictureText carousel-caption d-none d-sm-block">
+                                <h5>Сцепление в сборе</h5>
+                                <p CLASS="carouselName">0AMCLUTCH</p>
+                                <p class="carouselPrice">14 499,99 ₽</p>
+                                <button>
+                                    <img src="img/buy1.png" alt="basket">
+                                    В корзину
+                                </button>
+
+                            </div>
+
+                            <img src="img/avt-zap1.png" class="main__grid__left_picture d-block" alt="Slide 1">
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="main__grid_right d-flex col-xl-3">
+                <div class="main__grid__right_block1">
+                    <div class="main__grid__right__block1_picture">
+                        <h5>Акция</h5>
+                        <img src="img/avt-zap_2.png" alt="avt-zap_2">
+                    </div>
+                    <div class="main__grid__right__block1_description">
+                        <h5>Обгонная муфта <br> гидротрансформатор</h5>
+                        <p>BW-SP-2 SONNAX</p>
+                        <div>
+                            <p>4 430₽ <span>5 430₽</span></p>
+                            <button><img src="img/buy1.png" alt="basket"></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="main__grid__right_block2">
+
+                    <div class="main__grid__right__block2_picture">
+                        <h5>Акция</h5>
+                        <img src="img/avt-zap_3.png" alt="avt-zap_3">
+                    </div>
+                    <div class="main__grid__right__block2_description">
+                        <h5>Комплект фрикционных <br> дисков</h5>
+                        <p>BW-SP-2 SONNAX</p>
+                        <div>
+                            <p>4 430₽ <span>5 430₽</span></p>
+                            <button><img src="img/buy1.png" alt="basket"></button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="main__advert">
+
+            <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <div class="main__advert_grid">
+<!--                           Slide 1-->
+                           <div class="main__advert_product1 col-xl-4">
+                               <div>
+                                   <h4>Масла</h4>
+                                   <p>Трансмиссионное масло;<br>присалка в масло акп</p>
+                                   <button>Перейти</button>
+                               </div>
+                               <img src="img/avt-zap_advert1.png" alt="avt-zap">
+                           </div>
+                           <div class="main__advert_product2 col-xl-4">
+                               <div>
+                                   <h4>Фильтры</h4>
+                                   <p>Масляный фильтр;<br>фильтр воздушный</p>
+                                   <button>Перейти</button>
+                               </div>
+                               <img src="img/avt-zap_advert2.png" alt="avt-zap">
+
+                           </div>
+                           <div class="main__advert_product3 col-xl-4">
+                               <div>
+                                   <h4>Радиаторы</h4>
+                                   <p>Дополнительные <br>радиаторы</p>
+                                   <button>Перейти</button>
+                               </div>
+                               <img src="img/avt-zap_advert3.png" alt="avt-zap">
+                           </div>
+                       </div>
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="main__advert_grid">
+<!--                            Slide 2-->
+                            <div class="main__advert_product1 col-xl-4">
+                                <div>
+                                    <h4>Масла</h4>
+                                    <p>Трансмиссионное масло;<br>присалка в масло акп</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert1.png" alt="avt-zap">
+                            </div>
+                            <div class="main__advert_product2 col-xl-4">
+                                <div>
+                                    <h4>Фильтры</h4>
+                                    <p>Масляный фильтр;<br>фильтр воздушный</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert2.png" alt="avt-zap">
+
+                            </div>
+                            <div class="main__advert_product3 col-xl-4">
+                                <div>
+                                    <h4>Радиаторы</h4>
+                                    <p>Дополнительные <br>радиаторы</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert3.png" alt="avt-zap">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="main__advert_grid">
+<!--                            Slide 3-->
+                            <div class="main__advert_product1 col-xl-4">
+                                <div>
+                                    <h4>Масла</h4>
+                                    <p>Трансмиссионное масло;<br>присалка в масло акп</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert1.png" alt="avt-zap">
+                            </div>
+                            <div class="main__advert_product2 col-xl-4">
+                                <div>
+                                    <h4>Фильтры</h4>
+                                    <p>Масляный фильтр;<br>фильтр воздушный</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert2.png" alt="avt-zap">
+
+                            </div>
+                            <div class="main__advert_product3 col-xl-4">
+                                <div>
+                                    <h4>Радиаторы</h4>
+                                    <p>Дополнительные <br>радиаторы</p>
+                                    <button>Перейти</button>
+                                </div>
+                                <img src="img/avt-zap_advert3.png" alt="avt-zap">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="main__divisions">
+            <button><a class="main__divisions_btnText1" href="#">Подборки товаров</a></button>
+            <button><a class="main__divisions_btnText2" href="#">Акции</a></button>
+            <button><a class="main__divisions_btnText3" href="#">Сейчас покупают</a></button>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>
