@@ -1,0 +1,212 @@
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+
+    .header {
+        max-width: 375px;
+
+    }
+
+    .navBar_grid {
+
+        column-gap: 5px;
+        margin-left: 20px;
+
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    .btn-group {
+        margin-left: 10px;
+
+    }
+
+    .town {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .btn-group button {
+        height: 35px;
+        background: #0F2438;
+        border: none;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-align: center;
+
+
+    }
+
+    .btn-group button:hover {
+        background: #0F2438;
+        border: #0F2438;
+    }
+
+    .header__information {
+
+        padding-bottom: 10px;
+        padding-top: 15px;
+
+
+    }
+
+    .header__information_blockFirst {
+        max-width: 375px;
+        column-gap: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .blockFirst_logo img {
+        width: 36.78px;
+        height: 40.2px;
+        margin-right: 10px;
+    }
+
+    .blockFirst_logo h2 {
+        font-size: 18px;
+
+
+    }
+
+    .blockFirst_logo p {
+        font-size: 10px;
+    }
+
+    .blockFirst__connection {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-left: 10px;
+
+
+    }
+
+    .blockFirst_phoneNumber {
+        width: 109px;
+    }
+
+
+    .btn_WhatsApp.btn_WhatsApp {
+        width: 140px;
+        height: 18px;
+        font-size: 8px;
+    }
+
+    .blockFirst_phoneNumber p {
+        font-size: 14px;
+        line-height: 16px;
+
+
+    }
+
+    .blockFirst_phoneNumber a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header__information_blockSecond {
+        margin-left: 10px;
+        column-gap: 30px;
+
+    }
+
+    .blockSecond_catalog {
+        width: 35px;
+        height: 35px;
+    }
+
+    .blockSecond_dropdownContent {
+        width: 35px;
+        align-items: center;
+
+    }
+
+    .site-search {
+        width: 240px;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    #input-group-button-right {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .blockSecond_btnFind {
+        display: none;
+
+    }
+
+    .blockSecond_btnFind2 {
+
+    }
+
+    .main {
+        margin-left: 0;
+    }
+
+    .main__grid {
+        flex-direction: column;
+    }
+    #carouselWithCaptions {
+        height: 200px;
+    }
+    .main__grid__left_picture {
+        margin-left: 191px;
+        margin-top: 50px;
+        width: 131px;
+        height: 111px;
+
+
+    }
+
+    .main__grid__left_pictureText {
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    .carousel-caption h5 {
+        margin-top: 50px;
+        font-size: 16px;
+        line-height: 19px;
+
+
+    }
+    .carousel-caption {
+        bottom: -0.5rem;
+    }
+
+
+
+    .carouselName {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .carouselPrice {
+        font-size: 20px;
+        line-height: 23px;
+
+
+    }
+
+    .carousel-caption button {
+        width: 124px;
+        height: 34px;
+        font-size: 12px;
+
+    }
+
+
+
+}
+
+

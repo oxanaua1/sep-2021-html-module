@@ -20,7 +20,9 @@
 
 <body>
 <div class="container">
+
     <div class="header">
+
         <div class="headerTop">
 
             <div class="navBar_grid">
@@ -31,7 +33,7 @@
                         <a class="town" href="#">Ваш город:&nbsp <span class="yourTown">Москва</span> </a>
                     </div>
 
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown d-none d-sm-block">
                         <a class="nav-link dropdown-toggle header_font" data-bs-toggle="dropdown" href="#"
                            role="button"
                            aria-expanded="false">Информация</a>
@@ -41,7 +43,7 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </div>
-                    <div class="nav-item dropdown">
+                    <div class="nav-item dropdown d-none d-sm-block">
                         <a class="nav-link dropdown-toggle header_font" data-bs-toggle="dropdown" href="#"
                            role="button"
                            aria-expanded="false">Сотрудничество</a>
@@ -51,8 +53,9 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </div>
+
                 </div>
-                <div class="navBar_others">
+                <div class="navBar_others d-none d-sm-flex ">
                     <a class="nav-link header_font" href="#">Доставка</a>
                     <a class="nav-link header_font" href="#">Оплата</a>
                     <a class="nav-link header_font" href="#">Гарантия</a>
@@ -60,6 +63,24 @@
                     <a class="nav-link header_font" href="#">Журнал</a>
                     <a class="nav-link header_font" href="#">О магазине</a>
                     <a class="nav-link header_font" href="#">Контакты</a>
+                </div>
+                <!-- Right or left aligned dropdown menu can be use at different breakpoints with the help of .dropdown-menu-*-{end|start} class -->
+                <div class="btn-group d-xl-none d-flex">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Еще
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-sm-end dropdown-menu-xl-start">
+                        <li><a class="dropdown-item" href="#">Информация</a></li>
+                        <li><a class="dropdown-item" href="#">Сотрудничество</a></li>
+                        <li><a class="dropdown-item" href="#">Доставка</a></li>
+                        <li><a class="dropdown-item" href="#">Оплата</a></li>
+                        <li><a class="dropdown-item" href="#">Гарантия</a></li>
+                        <li><a class="dropdown-item" href="#">Новости</a></li>
+                        <li><a class="dropdown-item" href="#">Журнал</a></li>
+                        <li><a class="dropdown-item" href="#">О магазине</a></li>
+                        <li><a class="dropdown-item" href="#">Контакты</a></li>
+                    </ul>
                 </div>
 
 
@@ -77,33 +98,37 @@
                     <div class="flex-column">
                         <h1>AVT-ZAP</h1>
                         <p>Интернет-магазин запчастей
-                            <br>для АКПП</p>
+                            для АКПП</p>
                     </div>
 
                 </div>
-                <div class="blockFirst_working">
+                <div class="blockFirst_working d-none d-xl-flex">
                     <img src="img/time.png" alt="clock">
                     <p>
                         Мы работаем: будни - 9:00-21:00
                         <br>сб. - 10:00-15:00
                     </p>
                 </div>
-                <div class="blockFirst_address">
+                <div class="blockFirst_address d-none d-xl-flex">
                     <img src="img/placeholder.png" alt="place">
                     <p>Невский пр-т, д. 45</p>
                 </div>
 
-                <div>
+                <div class="blockFirst__connection">
+
                     <button class="btn_WhatsApp">
                         <img src="img/whatsapp.png" alt="whatsapp">
                         Напишите нам в WhatsApp
                     </button>
+
+
+                    <div class="blockFirst_phoneNumber">
+                        <p>+7 383 291 92 86</p>
+                        <a href="#">форма обратной связи</a>
+                    </div>
                 </div>
 
-                <div class="blockFirst_phoneNumber">
-                    <p>+7 383 291 92 86</p>
-                    <a href="#">форма обратной связи</a>
-                </div>
+
             </div>
 
 
@@ -111,8 +136,9 @@
 
                 <div class="blockSecond_catalog">
                     <div class="blockSecond_dropdown">
-                        <button class="blockSecond_dropbtn">Каталог</button>
+                        <button class="blockSecond_dropbtn d-none d-xl-flex">Каталог</button>
                         <div class="blockSecond_dropdownContent">
+
                             <a href="#"></a>
                             <a href="#"></a>
                             <a href="#"></a>
@@ -126,27 +152,31 @@
                     <input type="search" class="site-search" placeholder="Поиск по наименованию или артикулу"
                            aria-label="search"
                            aria-describedby="input-group-button-right">
-                    <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Найти</button>
+                    <button type="button" class="blockSecond_btnFind btn btn-outline-secondary" id="input-group-button-right1">
+                        Найти</button>
+                    <button type="button" class="blockSecond_btnFind2 d-xl-none  btn btn-outline-secondary" id="input-group-button-right">
+                        <img src="img/find.png" alt=""></button>
+
                 </div>
 
-                <div class="blockSecond_grid">
-                    <div class="blockSecond_enter">
-                        <img src="img/user.png" alt="user">
-                        <a href="#">Войти</a>
+                <div class=" blockSecond_grid d-none d-xl-flex">
+                        <div class="blockSecond_enter">
+                            <img src="img/user.png" alt="user">
+                            <a href="#">Войти</a>
 
-                    </div>
+                        </div>
 
-                    <div class="blockSecond_like">
-                        <img src="img/like.png" alt="like">
-                        <a href="#">Избранное</a>
+                        <div class="blockSecond_like">
+                            <img src="img/like.png" alt="like">
+                            <a href="#">Избранное</a>
 
-                    </div>
+                        </div>
 
-                    <div class="blockSecond_basket">
-                        <img src="img/buy.png" alt="basket">
-                        <a href="#">В корзине <br> нет товаров</a>
+                        <div class="blockSecond_basket">
+                            <img src="img/buy.png" alt="basket">
+                            <a href="#">В корзине <br> нет товаров</a>
 
-                    </div>
+                        </div>
 
                 </div>
 
@@ -155,6 +185,7 @@
 
 
         </div>
+
 
     </div>
 
@@ -173,7 +204,7 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class=" carousel-item active">
-                            <div class="main__grid__left_pictureText carousel-caption d-none d-sm-block">
+                            <div class="main__grid__left_pictureText carousel-caption">
                                 <h5>Сцепление в сборе</h5>
                                 <p CLASS="carouselName">0AMCLUTCH</p>
                                 <p class="carouselPrice">14 499,99 ₽</p>
@@ -240,7 +271,6 @@
             </div>
 
         </div>
-
 
         <div class="main__advert">
 
@@ -565,40 +595,183 @@
         <div class="main__showMore">
             <button>Показать еще</button>
         </div>
+    </div>
 
-        <div class="main__news">
-            <h3>НОВОСТИ</h3>
-            <div class="main__news_border">
-                <div class="d-flex">
+    <div class="main__news">
+        <h3>НОВОСТИ</h3>
+        <div class="main__news_border"></div>
 
-                        <div class="main__news_block">
-                            <h5>3 ноября</h5>
-                        </div>
+        <div class="main__news_block d-flex flex-row">
+
+            <div class="main__news_date1 col-xl-3">
+                <img src="img/dot.png" alt="icon">
+                <div class="main__news__date1_header">3 ноября</div>
+                <div class="main__news__date_block">
+                    <a href="#">Изменения на сайте</a>
+                    <div>
+                        <p>Недавно на сайте мы ввели
+                            очередную порцию изменений,
+                            которые, как нам кажется, должны
+                            улучшить функциональность сайта
+                            и сделать его более удобным для
+                            пользователей. Реакция посетителей
+                            не заставила себя долго ждать...</p>
+
+                    </div>
 
 
-                        <div class="main__news_block">
-                            <h5>2 ноября</h5>
-                        </div>
+                </div>
 
 
-                        <div class="main__news_block">
-                            <h5>1 ноября</h5>
-                        </div>
+            </div>
+            <div class="main__news_date2 col-xl-3">
+                <img src="img/dot.png" alt="icon">
+                <div class="main__news__date2_header">2 ноября</div>
+                <div class="main__news__date_block">
+                    <a href="#">Вышла новая версия для
+                        мобильных приложений</a>
+                    <div>
+                        <p>Что нового в 2.0:</p>
+                        <ul>
+                            <li>добавлена история поиска;</li>
+                            <li>добавлена синхронизация с сервером;</li>
+                            <li>испрвление ошибок.</li>
+                        </ul>
 
-
-                        <div class="main__news_block">
-                            <h5>31 октября</h5>
-                        </div>
+                    </div>
 
                 </div>
 
             </div>
+            <div class="main__news_date3 col-xl-3">
+                <img src="img/dot.png" alt="icon">
+                <div class="main__news__date3_header">21 ноября</div>
+                <div class="main__news__date_block">
+                    <a href="#">Очередная порция обновлений для
+                        мобильных приложений</a>
+                    <div>
+                        <p>Что нового добавлено:</p>
+                        <ul>
+                            <li>поддержка пуш-уведомлений;</li>
+                            <li>разделы для покупателей;</li>
+                            <li>ипросмотр покупателя в заказах;</li>
+                            <li>возможность поиска;</li>
+                            <li>исправление ошибок.</li>
 
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="main__news_date4 col-xl-3">
+                <img src="img/dot.png" alt="icon">
+                <div class="main__news__date4_header">31 октября</div>
+                <div class="main__news__date_block">
+                    <a href="#">Интерфейс заказов для покупателей
+                        стал более функциональным</a>
+                    <div>
+                        <p>Он позволяет выводить все
+                            формируемые системой
+                            уведомления(e-mail, смс, web) в
+                            едином окне с системой удобной
+                            фильтрации поиска..</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
 
 
         </div>
 
 
+    </div>
+
+
+    <div class="footer">
+        <div class="footer__grid">
+            <div class="footer__grid_catalogue">
+                <h5>КАТАЛОГ</h5>
+                <p><a href="#">Каталог запчастей</a></p>
+                <p><a href="#">Масла</a></p>
+                <p><a href="#">Фильтра</a></p>
+                <p><a href="#">Радиаторы</a></p>
+                <p><a href="#">Sonnax</a></p>
+                <p><a href="#">Manual</a></p>
+                <p><a href="#">Новинки</a></p>
+                <p><a href="#">Акции</a></p>
+
+            </div>
+
+            <div class="footer__grid_rubricator">
+                <h5>РУБРИКАТОР</h5>
+                <p><a href="#">Доставка</a></p>
+                <p><a href="#">Оплата</a></p>
+                <p><a href="#">Гарантия</a></p>
+                <p><a href="#">Новости</a></p>
+                <p><a href="#">Журнал</a></p>
+                <p><a href="#">О магазине</a></p>
+                <p><a href="#">Контактная информация</a></p>
+            </div>
+
+            <div class="footer__grid_information">
+                <h5>ИНФОРМАЦИЯ</h5>
+                <p><a href="#">Пользовательское соглашение об использовании персональных данных</a></p>
+                <p><a href="#">Политика конфиденциальности</a></p>
+                <p><a href="#">Соглашение на рассылку рекламных материалов</a></p>
+                <p><a href="#">Политика возвратов</a></p>
+                <div class="footer__grid_textdecoration">Мы принимаем</div>
+                <img src="img/mastercardvisa.png" alt="credit_card">
+            </div>
+
+            <div class="footer__grid_contactsAddress">
+                <div class="footer__grid__contactsAddress_grid">
+                    <div class="footer__grid_contacts">
+                        <h5>КОНТАКТЫ</h5>
+                        <p><a class="footer__grid_contacts_textDecoration" href="#">+7 383 291 92 86</a></p>
+                        <p><a class="footer__grid_contacts_textDecoration" href="#">info@avt-zap.ru</a></p>
+                    </div>
+                    <div class="footer__grid_address">
+                        <h5>АДРЕС</h5>
+                        <div>г. Новосибирск,<br>ул. Планировочная, 5, офис 105</div>
+                    </div>
+                </div>
+
+
+                <div class="footer__grid_contactsAddress_mail">
+                    <div><span>Мы онлайн, воспользуйтесь</span>
+                        <a class="footer__grid_contacts_textDecorationForm" href="#">&nbspФорма обратной связи</a></div>
+                    <span>Подпишитесь на нашу расслыку и вы первыми узнаете о скидках и акциях</span>
+                    <div>
+                        <div class="footer__grid_contacts_mail input-group">
+                            <input type="email" class="form-control" placeholder="Введите ваш email"
+                                   aria-label="Введите ваш email" aria-describedby="input-group-buttonright">
+                            <button type="button" class="btn btn-outline-secondary" id="input-group-buttonright">
+                                Подписаться
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="img/facebook.png" alt="facebook">
+                        <img src="img/telegram.png" alt="telegram">
+                        <img src="img/twitter.png" alt="twitter">
+                        <img src="img/google.png" alt="google">
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="footer__copyRight">
+            2017 © ООО «АВТ-ЗАП» - запчасти для акпп
+        </div>
 
     </div>
 
