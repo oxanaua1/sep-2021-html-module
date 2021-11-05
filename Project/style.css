@@ -437,8 +437,8 @@
     padding-left: 20px;
 }
 
-.main__grid__right__block1_picture,
-.main__grid__right__block2_picture {
+.main__grid__right__block1_picture img,
+.main__grid__right__block2_picture img {
     width: 80px;
     height: 74px;
 
@@ -493,12 +493,12 @@
 
 .main__grid__right__block1_description button,
 .main__grid__right__block2_description button {
-    width: 57px;
+    width: 49px;
     height: 49px;
-    top: 583px;
     background: #005BB9;
     border-radius: 6px;
     border: none;
+    margin-left: 20px;
 }
 
 .main__advert {
@@ -733,8 +733,6 @@ img, svg {
 .main__products__item_btn button {
     width: 160px;
     height: 49px;
-    left: 283px;
-    top: 1430px;
     border: none;
     background: #005BB9;
     border-radius: 6px;
