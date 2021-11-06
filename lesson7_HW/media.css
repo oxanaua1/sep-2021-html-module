@@ -1,12 +1,20 @@
 @media screen and (max-width: 400px) {
 
+
+
     .firstItem_description h1 {
 
         font-size: 30px;
         line-height: 32px;
 
     }
-
+    .firstItem_picture,
+    .secondItem_picture,
+    .standardsModern_picture {
+        max-width: 370px;
+    }
+    
+    
     .secondItem_description h2 {
         text-align: center;
         font-size: 18px;
@@ -14,27 +22,30 @@
         letter-spacing: 2.42px;
     }
 
+
+
     .standardsDescription h2 {
         font-size: 18px;
         margin-top: 30px;
     }
 
-    .standardsDescription p {
+
+
+
+    .standardsDescription {
+        background: #003584;
+        max-width: 370px;
+
+    }
+
+
+    .standardsDescription_paragraph {
         font-size: 16px;
-        margin-left: 0;
-        margin-right: 30px;
-    }
-
-    .firstItem_picture, .secondItem_picture {
-        max-width: 300px;
+        line-height: 32px;
+        color: #FBFDFF;
+        margin-left: 16px;
+        margin-right: 15px;
 
 
     }
-     .standardsModern img {
-        max-width: 400px;
-
-    }
-
-
-
 }

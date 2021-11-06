@@ -90,8 +90,12 @@
     font-weight: 600;
 
 }
+
+
+
 .standardsDescription {
-    background: url("img7/bgBlue.png") no-repeat center/cover;
+    background: #003584;
+
 }
 
 
@@ -104,7 +108,7 @@
     color: #FBFDFF;
     margin-top: 151px;
 }
-.standardsDescription p {
+.standardsDescription_paragraph {
     font-size: 17px;
     line-height: 32px;
     color: #FBFDFF;
