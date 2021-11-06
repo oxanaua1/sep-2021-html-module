@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
 
 
 
@@ -8,10 +8,22 @@
         line-height: 32px;
 
     }
+
     .firstItem_picture,
-    .secondItem_picture,
+    .secondItem_picture {
+        max-width: 360px;
+        overflow: hidden;
+    }
+
+
+
+
     .standardsModern_picture {
-        max-width: 370px;
+        max-width: 195px;
+    }
+    .firstItem_picture img,
+    .secondItem_picture img {
+        width: 100vh;
     }
     
     
