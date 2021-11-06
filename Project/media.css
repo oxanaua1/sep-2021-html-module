@@ -58,8 +58,7 @@
     .header__information_blockFirst {
         max-width: 375px;
         column-gap: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 0 10px 10px 10px;
 
     }
 
@@ -321,7 +320,7 @@
     }
 
     .main__divisions button:nth-child(3) span {
-       display: none;
+        display: none;
 
     }
 
@@ -340,12 +339,14 @@
     .main__products__item4_body h5 {
 
         font-size: 12px;
-        line-height: 17px;}
+        line-height: 17px;
+    }
 
     .main__products__item_btn button {
         width: 110px;
         height: 37px;
         font-size: 12px;
+        margin-top: 10px;
 
 
     }
@@ -356,10 +357,10 @@
     }
 
 
-.main__products__item_btn img:nth-child(3) {
+    .main__products__item_btn img:nth-child(3) {
 
-    display: none;
-}
+        display: none;
+    }
 
     .main__showMore button {
         width: 160px;
@@ -367,6 +368,195 @@
         font-size: 12px;
         margin-bottom: 50px;
     }
+
+    .main__news h3 {
+
+        margin: 0 0 20px 15px;
+    }
+
+
+    .main__news_block {
+        flex-wrap: wrap;
+        margin-left: 0;
+
+    }
+
+    .main__news_date1,
+    .main__news_date2,
+    .main__news_date3,
+    .main__news_date4 {
+        margin-left: -60px;
+    }
+
+
+    .main__news__date1_header,
+    .main__news__date2_header,
+    .main__news__date3_header,
+    .main__news__date4_header {
+        margin-top: 0;
+        font-size: 12px;
+        width: 65px;
+    }
+
+    .main__news__date_block {
+        width: 270px !important;
+    }
+
+
+    .main__news__date_block a {
+        font-size: 14px;
+    }
+
+    .main__news__date_block div {
+        margin-bottom: -90px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer__grid {
+        margin-left: 20px;
+        padding-top: 10px;
+        flex-wrap: wrap;
+
+
+    }
+
+    .footer__grid_information {
+        margin-bottom: 20px;
+    }
+
+    .footer__grid_information p:nth-child(5) {
+
+        margin-bottom: 20px;
+    }
+
+    .footer__grid__contactsAddress_grid {
+        flex-wrap: wrap
+
+    }
+
+    .footer__grid h5,
+    .footer__grid_contactsAddress_mail span,
+    .footer__grid_contacts label {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+
+    .footer__grid_address > div,
+    .footer__grid_contacts_textDecoration,
+    .footer__grid_contacts_textDecorationForm,
+    .footer__grid_catalogue p > a,
+    .footer__grid_rubricator p > a,
+    .footer__grid_information p > a,
+    .footer__grid_textdecoration {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+
+    .footer__grid_contactsAddress_mail button {
+        width: 105px;
+        height: 35px;
+    }
+
+
+    .footer__grid_contacts_mail {
+        width: 290px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .footer__grid_contactsAddress_mail div:nth-child(4) {
+        column-gap: 20px;
+        justify-content: flex-start;
+
+    }
+
+    .footer__grid_contactsAddress_mail img {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    .footer__copyRight {
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 20px;
+        padding: 30px 0 70px;
+    }
+
+
+    .menuNav {
+        margin-top: 30px;
+        width: 351px;
+        display: flex;
+        justify-content: space-evenly;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        z-index: 999;
+
+    }
+
+
+    .menuNav_home {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+
+
+    }
+
+    .menuNav_favourite {
+        position: relative;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+
+
+    }
+
+    .menuNav_basket {
+        position: relative;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+
+
+    }
+
+    .menuNav_usermenu {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        color: #0F2438;
+
+
+    }
+
+
+    .menuNav_favourite p:nth-child(2),
+    .menuNav_basket p:nth-child(2) {
+        position: absolute;
+        bottom: 28px;
+        left: 25px;
+
+
+    }
+
+
+
+
 
 
 }

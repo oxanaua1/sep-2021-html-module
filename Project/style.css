@@ -888,6 +888,11 @@ img, svg {
     color: #FFFFFF;
 
 }
+.footer__grid_information p:nth-child(5) {
+
+    margin-bottom: 75px;
+}
+
 
 .footer__grid_information img {
     width: 114px;
@@ -935,6 +940,13 @@ img, svg {
 
 }
 
+
+.footer__grid_contacts_mail {
+    margin-top: 20px;
+
+}
+
+
 .footer__grid_contactsAddress_mail input {
     background: transparent;
     border: 1px solid #203246;
@@ -963,10 +975,17 @@ img, svg {
 
 
 }
+.footer__grid_contactsAddress_mail div:nth-child(4) {
+    column-gap: 20px;
+    justify-content: flex-end;
 
-.footer__grid_contactsAddress_mail img {
+}
+
+
+.footer__grid_contactsAddress_mail p {
     padding-top: 35px;
-    margin-left: 90px;
+
+
 }
 
 .footer__copyRight {
@@ -975,6 +994,15 @@ img, svg {
     color: #737E9B;
     margin-left: 240px;
     padding-bottom: 50px;
+
+
+
+
+
+
+
+
+
 }
 
 
